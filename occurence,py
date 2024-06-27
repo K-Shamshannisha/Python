@@ -1,0 +1,6 @@
+input_string = "hello world!"
+char_to_remove = "o"
+
+result = input_string.replace(char_to_remove, "")
+
+print(result)  # Output: "hell wrld!"
